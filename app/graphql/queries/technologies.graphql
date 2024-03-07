@@ -1,0 +1,14 @@
+query technologies {
+  technologiesCollection {
+    items {
+      id
+      logo {
+        title
+        url
+        width
+        height
+      }
+      name
+    }
+  }
+}

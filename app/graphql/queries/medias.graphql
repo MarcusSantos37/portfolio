@@ -1,0 +1,15 @@
+query medias {
+  mediasCollection {
+    items {
+      id
+      logo {
+        title
+        url
+        width
+        height
+      }
+      name
+      link
+    }
+  }
+}

@@ -1,0 +1,15 @@
+query projects {
+  projectsCollection {
+    items {
+      id
+      projectName
+      projectImage {
+        url
+      }
+      projectLiveLink
+      projectCodeLink
+      stacks
+      description
+    }
+  }
+}
